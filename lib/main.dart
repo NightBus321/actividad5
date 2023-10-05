@@ -36,7 +36,7 @@ createScaffold() {
 
   return Scaffold(
     appBar: AppBar(
-      title: const Text("Bookinder"),
+      title: const Text("Login"),
       backgroundColor: primaryColor,
     ),
     body: ListView.separated(
