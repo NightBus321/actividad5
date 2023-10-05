@@ -28,10 +28,7 @@ class AppBases extends StatelessWidget {
 
 createScaffold() {
   List examples = [
-    {"name": "Cargar Libros", "route": "loadBooks"},
-    {"name": "CRUD Usuarios", "route": "adminUsersList"},
     {"name": "Iniciar Sesión", "route": "login"},
-    {"name": "Registrar usuarios", "route": "signup"},
   ];
 
   return Scaffold(
